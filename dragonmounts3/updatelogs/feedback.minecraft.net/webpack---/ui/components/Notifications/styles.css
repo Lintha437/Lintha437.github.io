@@ -1,0 +1,16 @@
+.notifications {
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    width: 360px;
+    z-index: 2147483647;
+}
+
+[dir="rtl"] .notifications {
+    right: 0;
+    left: 16px;
+}
+
+.notifications>* {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,3 @@
+.notificationBody {
+    composes: c-callout__paragraph from "~@zendeskgarden/css-callouts/dist/index.css";
+}

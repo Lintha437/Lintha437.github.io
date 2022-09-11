@@ -1,0 +1,53 @@
+.default {
+    composes: c-callout from "~@zendeskgarden/css-callouts/dist/index.css";
+}
+
+.success {
+    composes: c-callout c-callout--success from "~@zendeskgarden/css-callouts/dist/index.css";
+}
+
+.warning {
+    composes: c-callout c-callout--warning from "~@zendeskgarden/css-callouts/dist/index.css";
+}
+
+.error {
+    composes: c-callout c-callout--error from "~@zendeskgarden/css-callouts/dist/index.css";
+}
+
+.info {
+    composes: c-callout c-callout--info from "~@zendeskgarden/css-callouts/dist/index.css";
+    background-color: #f8f9f9;
+}
+
+.remove {
+    background-color: transparent !important;
+    composes: c-callout__close from "~@zendeskgarden/css-callouts/dist/index.css";
+    padding: 0;
+}
+
+.title {
+    composes: c-callout__title from "~@zendeskgarden/css-callouts/dist/index.css";
+}
+
+.rtl {
+    composes: is-rtl from "~@zendeskgarden/css-callouts/dist/index.css";
+}
+
+.floating {
+    composes: c-callout--dialog from "~@zendeskgarden/css-callouts/dist/index.css";
+}
+
+/* Reset styles for links within notifications */
+
+.notification a {
+    all: initial;
+    font-size: inherit;
+    font-family: inherit;
+    color: #0072ef;
+    cursor: pointer;
+}
+
+.notification a:hover,
+.notification a:focus {
+    text-decoration: underline;
+}

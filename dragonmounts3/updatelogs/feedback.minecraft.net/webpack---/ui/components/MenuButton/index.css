@@ -1,0 +1,50 @@
+:root {
+    --reach-menu-button: 1;
+}
+
+.list {
+    background: #fff;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 3px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    left: 0;
+    min-width: 170px;
+    outline: none;
+    padding: 10px 0;
+    position: relative;
+    z-index: 1000;
+}
+
+.item {
+    color: #333;
+    cursor: pointer;
+    display: block;
+    padding: 7px 40px 7px 20px;
+    outline: none;
+    white-space: nowrap;
+}
+
+.item:hover,
+.item:focus {
+    background: #f3f3f3;
+    text-decoration: none;
+    color: #333;
+}
+
+.separator {
+    border-bottom: 1px solid rgb(216, 216, 216);
+    color: rgb(150, 150, 150);
+    display: block;
+    font-weight: normal;
+    font-size: 11px;
+    padding: 5px 0;
+    margin: 5px 20px 10px 20px;
+}
+
+.spacer {
+    display: inline-block;
+    width: 10px;
+}
