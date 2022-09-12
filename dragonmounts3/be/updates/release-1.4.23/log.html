@@ -1075,7 +1075,8 @@ Mobile style's
 											<!-- <h2><strong>Information on the Dragon Mounts 3 Release:&nbsp;</strong>
 											</h2> -->
 											<!-- <ul> -->
-											<p>-&ensp;Where is my Forest Dragon Egg?&ensp;&ensp;&ensp;-&ensp;See it? That is dragon egg with the
+											<p>-&ensp;Where is my Forest Dragon Egg?&ensp;&ensp;&ensp;-&ensp;See it?
+												That is dragon egg with the
 												bright blue particles. Yes, the egg has merged with the sculk vegitation
 												from the dangerous ancient city!</p>
 											<p>While you're enjoying weekend afternoon tea, we bring you the first
@@ -1083,9 +1084,11 @@ Mobile style's
 												the initial synchronization of the Dragon Mounts Mod Bedrock Edition
 												with Java Edition. As always, we appreciate all your help and input,
 												please report any new bugs and leave your feedback by sending them to <a
-													href=mailto:lintha437@gmail.com target="_blank">lintha437@gmail.com</a>
+													href=mailto:lintha437@gmail.com
+													target="_blank">lintha437@gmail.com</a>
 												or via the corresponding channel on <a
-													href="https://discord.gg/RKHpyRr6yx" target="_blank">Discord</a>.</p>
+													href="https://discord.gg/RKHpyRr6yx" target="_blank">Discord</a>.
+											</p>
 											<!-- <li>The beta is available on Android (Google Play). To join or leave the
 													beta, see&nbsp;<a href="https://aka.ms/JoinMCBeta" target="_self"
 														rel="undefined">aka.ms/JoinMCBeta</a>&nbsp;for detailed
@@ -1101,192 +1104,101 @@ Mobile style's
 											</p>
 											<p><strong>Please Note:</strong> The Beta update on Android will be delayed
 												by at least 24 hours, thank you for your patience!</p> -->
-											<h1><strong>Vanilla Parity</strong></h1>
-											<h3><strong>Spectator Mode (Experimental)</strong></h3>
-											<ul>
-												<li>Players in Spectator Mode are no longer affected by the Powder Snow
-													fog effect (<a
-														href="https://bugs.mojang.com/browse/MCPE-156683">MCPE-156683</a>)
-												</li>
-												<li>Sadly, any leashed animals will not follow spectators anymore (<a
-														id="key-val" class="issue-link"
-														href="https://bugs.mojang.com/browse/MCPE-157065"
-														rel="505695">MCPE-157065)</a></li>
-												<li>Players in Spectator Mode no longer emit particles while sprinting
-													(<a
-														href="https://bugs.mojang.com/browse/MCPE-160397">MCPE-160397</a>)
-												</li>
-												<li>Spectator players with status effects applied no longer emit
-													particles (<a
-														href="https://bugs.mojang.com/browse/MCPE-160398">MCPE-160398</a>)
-												</li>
-											</ul>
+											<!-- <EXAMPLE>
+											<h1><strong>New Features and Changes</strong></h1>
 											<h3><strong>Chest Boats</strong></h3>
 											<ul>
-												<li>Fixed an issue where Boats with Chests would not drop the Chest's
-													contents when destroyed by the /kill command (<a
-														href="https://bugs.mojang.com/browse/MCPE-160186">MCPE-160186</a>)
+												<li></li>
+											</ul>
+											</EXAMPLE> -->
+											<h1><strong>New Features and Changes</strong></h1>
+											<h3><strong>Nest Blocks</strong></h3>
+											<ul>
+												<li>Nest Blocks will be generated as part of some dragon nest structures
+												</li>
+												<li>In Java Edition, the Nest Block is a mod block officially recognized
+													by the Dragon Mounts Mod to prevent the accidental conversion of
+													dragon eggs into other breeds during the hatching process, although
+													the current Bedrock Edition Dragon Mounts Mod has not yet added the
+													Related features of dragon egg environmental transformation breeds
 												</li>
 											</ul>
-											<h3><strong>Items</strong></h3>
+											<h3><strong>Dragon Eggs</strong></h3>
 											<ul>
-												<li>Eating a stew will now leave the empty Bowl in the slot it was eaten
-													from (<a
-														href="https://bugs.mojang.com/browse/MCPE-56367">MCPE-56367</a>)
-												</li>
-												<li>Drinking a potion will now leave the empty Glass Bottle in the slot
-													you drank it from rather than your first empty inventory slot (<a
-														href="https://bugs.mojang.com/browse/MCPE-26436">MCPE-26436</a>)
-												</li>
+												<li>Hatching dragon eggs now determine whether entities can pass through them based on the presence of the model blocks</li>
+												<li>Added the way to get Sculk Dragon Eggs, now you can get Sculk Dragon Eggs in the hatching state by inducing the Warden to infect the Forest Dragon Egg in the hatching state</li>
+												<li>Added an interaction method, now you can interact with hatching dragon eggs by "Sneaking + Right Click" to convert it back to the block state dragon egg</li>
+												<li>Added dragon egg activation hatching sound</li>
+												<li>Eggs in hatching state are now highlighted instead of flashing red when damaged</li>
+												<li>Eggs in hatching state will no longer be knockback when attacked</li>
+												<li>Block dragon egg mining time changed to instant mining to synchronize with Java Edition</li>
+												<li>Hatching dragon eggs no longer have a mob-like death animation when completely destroyed by an attack, to synchronize with Java Edition</li>
 											</ul>
-											<h3><strong>Mobs</strong></h3>
+											<h3><strong>Dragons</strong></h3>
 											<ul>
-												<li>Drowned no longer spawn in Warm Ocean biomes</li>
+												<li>Made detailed changes to dragon animation to make it more physical</li>
+												<li>Adjusted the dragon's sound so it's not too loud</li>
+												<li>Implemented new death animations and sound effects to synchronize Java Edition</li>
+												<li>Dragons no longer drop experience and dragon scales when they die, providing a reasonable setting for the addition of dragon essences in the future</li>
+												<li>Flight control system optimization</li>
+												<li>Use new glide sound effects when gliding for dragons</li>
+												<li>Baby dragons can now follow adult dragons to synchronize Java Edition</li>
+												<li>When the player is riding, if they are sitting, they will switch to standing to synchronize Java Edition</li>
+												<li>Dragons will stand up if it is sitting down when injured, and will fight back if the attacker is not the owner of the dragon to synchronize Java Edition</li>
+												<li>Added different additional effects for dragons to synchronize Java Edition</li>
+												<li>Some dragons use different variant models to synchronize Java Edition</li>
 											</ul>
-											<h2><strong>Blocks</strong></h2>
+											<h3><strong>Dragon Nests</strong></h3>
 											<ul>
-												<li>Oak and Mangrove Fence Gates are now flammable (<a
-														href="https://bugs.mojang.com/browse/MCPE-160098">MCPE-160098</a>)
-												</li>
+												<li>Ported Dragon Nests that was not ported in the original Java Edition to synchronize Java Edition</li>
+												<li>Zombie Dragon Nests changed from Overworld spawning to Nether spawning</li>
+												<li>Wither Dragon Nests is now properly removed</li>
+												<li>Dragon Nests spawn rate adjusted to make it spawn more balanced</li>
+											</ul>
+											<h3><strong>Dragonscale Equipment</strong></h3>
+											<ul>
+												<li>The additional attributes of the Ender Dragon Scale Armors are increased from the original only resistance by 3 levels, to the strength is increased by 1 level</li>
+												<li>The additional attributes of the Zombie Dragon Scale Armors have been increased from the original strength level 1 to strength level 3</li>
+												<li>The additional attributes of the Enchant Dragon Scale Armors are increased from the original jump boost level 2 to jump level 6</li>
+												<li>The additional attributes of the Ice Dragon Scale Armors have been increased from the original 5*5*5 area of effect to 9*9*9 area of effect</li>
+											</ul>
+											<h3><strong>UI</strong></h3>
+											<ul>
+												<li>Added entry "Violators" to the built-in intro UI to record people who severely violate mod community rules</li>
+											</ul>
+											<h1><strong>Known Issues</strong></h1>
+											<ul>
+												<li>When a dragon is in heat and tries to breed, it still fails to spawn a dragon egg</li>
 											</ul>
 											<h1><strong>Features and Bug Fixes</strong></h1>
-											<h2><strong>Gameplay</strong></h2>
+											<h2><strong>Mobs</strong></h2>
 											<ul>
-												<li>Disallow Fireballs from travelling through portals to prevent an
-													issue where they could become permanently stuck (<a
-														href="https://bugs.mojang.com/browse/MCPE-160938">MCPE-160938</a>)
-												</li>
-												<li>Fixed dropped items getting stuck at the edge of flowing water (<a
-														href="https://bugs.mojang.com/browse/MCPE-157167">MCPE-157167</a>)
-												</li>
-											</ul>
-											<h2><strong>Graphical</strong></h2>
-											<ul>
-												<li>Fixed an issue where certain water textures with waterlogged blocks
-													displayed the wrong texture (<a
-														href="https://bugs.mojang.com/browse/MCPE-156281">MCPE-156281</a>)
-												</li>
-												<li>Sky in The End dimension will no longer look like static upon entry
-													while it is raining in the Overworld (<a
-														href="https://bugs.mojang.com/browse/MCPE-148843">MCPE-148843</a>)
-												</li>
+												<li>The dragon visual model is no longer unexpectedly hidden when the dragon collision box is out of the player's field of view</li>
+												<li>Fixed an issue where dragons and hatching dragon eggs disappeared unexpectedly</li>
+												<li>Baby dragons no longer accidentally ride adult dragons</li>
+												<li>Fixed an issue that exploded unexpectedly when firing fireballs and dragon breaths while riding a dragon</li>
+												<li>Fixed incorrect appearance of dragons when equipped with saddles, armors, chests</li>
+												<li>Fixed a problem with incorrect particle offset when some breeds dragons were equipped with saddles</li>
+												<li>Fixed an issue that some breeds dragon translucent highlight rendering was incorrectly culled</li>
 											</ul>
 											<h2><strong>Items</strong></h2>
 											<ul>
-												<li>Fixed a bug where some custom items (from Creator Features packs),
-													after being used, were duplicated upon player's death (<a
-														href="https://bugs.mojang.com/browse/MCPE-128897">MCPE-128897</a>)
-												</li>
-												<li>Fixed a regression where an undamaged tool, such as Pickaxe, when
-													name changed on an Anvil, would fail to work correctly when used for
-													the first time (<a
-														href="https://bugs.mojang.com/browse/MCPE-152637">MCPE-152637</a>)
-												</li>
-												<li>Fixed a bug where some blocks that require a supporting block (for
-													example Carpet or crops) did not appear on Maps when placed on a
-													non-full block or above an air block (<a
-														href="https://bugs.mojang.com/browse/MCPE-159713">MCPE-159713</a>)
-												</li>
+												<li>Diamond scissors are now correctly registered in the creative mode menu bar corresponding to the equipment category</li>
+												<li>The issue where the dragon scale tools could not speed up mining in some versions of the game version 1.19 has been fixed</li>
+												<li>Fixed an issue that the Dragon Scale Tools did not work on block mining for game version 1.17 and above updates</li>
 											</ul>
-											<h2><strong>Marketplace</strong></h2>
+											<h2><strong>Structures</strong></h2>
 											<ul>
-												<li>Most common Marketplace connection issues will now automatically
-													resolve themselves when conditions improve without needing to
-													restart Minecraft (<a
-														href="https://bugs.mojang.com/browse/MCPE-155025">MCPE-155025</a>)&nbsp;
-												</li>
+												<li>Wither Dragon Nests is now correctly removed</li>
 											</ul>
-											<h2><strong>Mobs</strong></h2>
+											<h2><strong>Texts</strong></h2>
 											<ul>
-												<li>Allays and Bees should no longer get stuck on Lanterns or other low
-													hanging objects (<a
-														href="https://bugs.mojang.com/browse/MCPE-155777">MCPE-155777</a>)
-												</li>
-											</ul>
-											<h2><strong>Music</strong></h2>
-											<ul>
-												<li>Music is now included in the mobile app and no longer has to be
-													downloaded from Marketplace</li>
+												<li>Fixed some English text translation issues</li>
 											</ul>
 											<h2><strong>Performance and Stability</strong></h2>
 											<ul>
-												<li>Fixed performance issues when Striders are being ridden by baby
-													Striders (<a
-														href="https://bugs.mojang.com/browse/MCPE-146478">MCPE-146478</a>)
-												</li>
-											</ul>
-											<h2><strong>User Interface</strong></h2>
-											<ul>
-												<li>The arrow within the crafting Pocket UI now fits appropriately
-													without any clipping issues</li>
-											</ul>
-											<h2><strong>Commands</strong></h2>
-											<ul>
-												<li>Fixed a bug where a "%" was prepended to player names in the chat
-													output of "/scoreboard players reset" (<a
-														href="https://bugs.mojang.com/browse/MCPE-151389">MCPE-151389</a>)
-												</li>
-												<li>Attempting to kill a player in Creative Mode using the "/kill"
-													command now displays a message informing the player that it cannot
-													be done (<a
-														href="https://bugs.mojang.com/browse/MCPE-16732">MCPE-16732</a>)
-												</li>
-											</ul>
-											<h1><strong>Technical Updates</strong></h1>
-											<h2><strong>Actors</strong></h2>
-											<ul>
-												<li>Non-Parrot mobs on a player's shoulder will now adjust their
-													position when the player crouches (<a
-														href="https://bugs.mojang.com/browse/MCPE-153996">MCPE-153996</a>)
-												</li>
-											</ul>
-											<h2><strong>Data-Driven Block Components</strong></h2>
-											<ul>
-												<li>Enables creators to add geometry up to 0.875 units outside of the
-													regular block unit cube on any one side</li>
-											</ul>
-											<h2><strong>Gameplay</strong></h2>
-											<ul>
-												<li>Coral Fans now look identical when placed facing North, West, East,
-													and South (<a
-														href="https://bugs.mojang.com/browse/MCPE-125311">MCPE-125311</a>)
-												</li>
-											</ul>
-											<h2><strong>Marketplace</strong></h2>
-											<ul>
-												<li>Text To Speech no longer ignores the volume setting on startup</li>
-											</ul>
-											<h2><strong>Molang</strong></h2>
-											<ul>
-												<li>Clarified the documentation for <em>equipment_count</em> to indicate
-													it only counts equipped armor, and how to query for held items (<a
-														href="https://bugs.mojang.com/browse/MCPE-136134">MCPE-136134</a>)
-												</li>
-											</ul>
-											<h1><strong>Experimental Features</strong></h1>
-											<h2><strong>Commands</strong></h2>
-											<ul>
-												<li>The "/execute at" command now properly executes filters from the
-													specified 'at' position (<a
-														href="https://bugs.mojang.com/browse/MCPE-156283">MCPE-156283</a>)
-												</li>
-											</ul>
-											<h2><strong>GameTest Framework</strong></h2>
-											<ul>
-												<li>Script Command
-													<ul>
-														<li>Added new sub-command&nbsp;<em>/script watchdog
-																exportstats</em>- Exports a file containing memory usage
-															and object handle statistics</li>
-													</ul>
-												</li>
-											</ul>
-											<h2><strong>Touch Controls</strong></h2>
-											<ul>
-												<li>Can now switch hotbar slots while targeting a block while in a Boat
-													(<a
-														href="https://bugs.mojang.com/browse/MCPE-156814">MCPE-156814</a>)
-												</li>
+												<li>Compatibility improvement, replacing most of the features implemented by "player.json", this mod can now be used in parallel with most other mods</li>
+												<li>Fixed some performance issues</li>
 											</ul>
 											<p>&nbsp;</p>
 											<p>&nbsp;</p>
@@ -1333,189 +1245,192 @@ Mobile style's
 	<footer class="minecraft-footer">
 		<div class="container">
 			<div class="row position-relative">
-				<div class="col-12 text-center">
-					<a class="mojang-lnk" href="https://mojang.com/?ref=ft" aria-label="mojang logo" target="_blank">
-						<svg id="LOGO" class="icon-logo icon-mojang mx-3" focusable="false"
-							xmlns="http://www.w3.org/2000/svg" viewBox="0 0 605.29467 509.24409">
-							<title>Mojang</title>
-							<g>
-								<path
-									d="M1209.67849,287.26239l-565.204,0a19.99924,19.99924,0,0,0-19.99924,19.99535l-.09221,469.2456a19.99925,19.99925,0,0,0,19.99925,20.00314h565.29617a19.99925,19.99925,0,0,0,19.99925-19.99924V307.26164A19.99925,19.99925,0,0,0,1209.67849,287.26239Z"
-									transform="translate(-624.38307 -287.26237)" fill="#ef323d" />
-								<g>
-									<g>
-										<path
-											d="M787.90243,706.32892H743.80215a2.02519,2.02519,0,0,0-2.02525,2.02526v10.11148a2.02519,2.02519,0,0,0,2.02525,2.02525h12.102a2.02524,2.02524,0,0,1,2.02525,2.02526v35.986a2.02528,2.02528,0,0,0,2.02526,2.02525h11.79575a2.02524,2.02524,0,0,0,2.02526-2.02525v-35.986a2.02528,2.02528,0,0,1,2.02525-2.02526h12.10151a2.02519,2.02519,0,0,0,2.02525-2.02525V708.35418A2.02519,2.02519,0,0,0,787.90243,706.32892Z"
-											transform="translate(-624.38307 -287.26237)" fill="#fff" />
-										<path
-											d="M933.75761,706.32892H916.87492a2.02519,2.02519,0,0,0-2.02525,2.02526v50.148a2.02523,2.02523,0,0,0,2.02525,2.02525H933.6814c19.13748,0,31.07947-10.41112,31.07947-27.25239C964.76087,716.74005,953.27859,706.32892,933.75761,706.32892Zm-.78624,40.34274h-.74255a2.04191,2.04191,0,0,1-2.05821-2.02525V722.20992a2.04191,2.04191,0,0,1,2.05821-2.02525h.89845c10.26924,0,15.48158,3.981,15.48158,13.09034C948.60885,742.69118,943.39651,746.67166,932.97137,746.67166Z"
-											transform="translate(-624.38307 -287.26237)" fill="#fff" />
-										<rect x="379.84998" y="419.06656" width="16.20941" height="54.19848"
-											rx="2.02525" fill="#fff" />
-										<path
-											d="M873.33114,706.32892H861.76493a2.02523,2.02523,0,0,0-2.02525,2.02526v26.91134c0,9.03317-2.44967,12.17154-8.49681,12.17154-6.0477,0-8.49731-3.13837-8.49731-12.17154V708.35418a2.02523,2.02523,0,0,0-2.02525-2.02526H829.1541a2.02523,2.02523,0,0,0-2.02525,2.02526v28.44215c0,16.61173,7.42565,25.18573,24.114,25.18573,16.22871,0,24.11352-9.03316,24.11352-25.26243V708.35418A2.02523,2.02523,0,0,0,873.33114,706.32892Z"
-											transform="translate(-624.38307 -287.26237)" fill="#fff" />
-										<path
-											d="M691.98331,727.76317c-1.67446-.7175-6.27831-2.62854-6.90928-2.83348-4.47633-1.45388-4.68824-3.58228-3.94423-5.63113s3.75824-2.95912,6.63835-1.78833c1.54614.62853,5.38255,4.10741,5.80006,4.51483a2.13164,2.13164,0,0,0,1.0587.67018h.00006a1.81176,1.81176,0,0,0,1.457-.321l8.43351-6.2946a1.822,1.822,0,0,0,.31462-2.61761c-4.59077-5.5467-11.24387-8.58782-19.126-8.58782-11.63622,0-20.28637,7.04322-20.28637,16.15253,0,7.95634,3.55673,12.66055,12.88045,16.71188,2.411.85106,5.51515,2.11835,6.75676,2.48361,5.43231,1.59832,5.64052,4.31,4.74546,6.775s-4.507,3.52329-7.98694,2.15162c-2.42877-.95733-6.23239-4.632-6.49751-5.0003a1.81823,1.81823,0,0,0-.98959-.60146l-.02708-.00575a1.81181,1.81181,0,0,0-1.41016.28716l-8.4864,5.92218a1.8215,1.8215,0,0,0-.39893,2.60375c4.90789,6.3473,12.09921,9.70374,20.47524,9.70374,12.47776,0,21.3581-7.73134,21.3581-18.2192C705.8391,736.94976,702.08769,732.0505,691.98331,727.76317Z"
-											transform="translate(-624.38307 -287.26237)" fill="#fff" />
-										<path
-											d="M1087.56366,704.87426a28.55318,28.55318,0,1,0,28.55318,28.55318A28.55317,28.55317,0,0,0,1087.56366,704.87426Zm0,41.2955a12.74233,12.74233,0,1,1,12.74233-12.74232A12.75674,12.75674,0,0,1,1087.56366,746.16976Z"
-											transform="translate(-624.38307 -287.26237)" fill="#fff" />
-										<path
-											d="M1178.046,727.76317c-1.67445-.7175-6.27831-2.62854-6.90928-2.83348-4.47632-1.45388-4.68823-3.58228-3.94422-5.63113s3.75824-2.95912,6.63834-1.78833c1.54614.62853,5.38256,4.10741,5.80007,4.51483a2.13158,2.13158,0,0,0,1.05869.67018h.00007a1.81176,1.81176,0,0,0,1.457-.321l8.43351-6.2946a1.822,1.822,0,0,0,.31462-2.61761c-4.59078-5.5467-11.24388-8.58782-19.126-8.58782-11.63622,0-20.28638,7.04322-20.28638,16.15253,0,7.95634,3.55674,12.66055,12.88046,16.71188,2.411.85106,5.51514,2.11835,6.75676,2.48361,5.43231,1.59832,5.64052,4.31,4.74546,6.775s-4.507,3.52329-7.98694,2.15162c-2.42877-.95733-6.2324-4.632-6.49752-5.0003a1.81816,1.81816,0,0,0-.98958-.60146l-.02708-.00575a1.81183,1.81183,0,0,0-1.41017.28716l-8.48639,5.92218a1.82149,1.82149,0,0,0-.39893,2.60375c4.90789,6.3473,12.09921,9.70374,20.47524,9.70374,12.47776,0,21.3581-7.73134,21.3581-18.2192C1191.90179,736.94976,1188.15038,732.0505,1178.046,727.76317Z"
-											transform="translate(-624.38307 -287.26237)" fill="#fff" />
-									</g>
-									<g>
-										<path
-											d="M938.42238,325.22987a81.997,81.997,0,1,0,81.997,81.997A81.997,81.997,0,0,0,938.42238,325.22987Zm0,121.99554a39.99854,39.99854,0,1,1,39.99854-39.99854A40.04382,40.04382,0,0,1,938.42238,447.22541Z"
-											transform="translate(-624.38307 -287.26237)" fill="#fff" />
-										<path
-											d="M1185.67988,327.22975H1073.684a3.99986,3.99986,0,0,0-3.99986,3.99986v31.99883a3.99986,3.99986,0,0,0,3.99986,3.99985h75.99722v69.99683a9.99966,9.99966,0,0,1-9.99964,9.99963l.00013.00061h-29.999a40.05387,40.05387,0,0,1-39.83924-36.41349,3.96391,3.96391,0,0,0-3.96214-3.585h-32.079a3.97814,3.97814,0,0,0-4.00926,4.18262,80.00044,80.00044,0,0,0,79.88966,75.81445h35.99868a3.99985,3.99985,0,0,0,3.99986-3.99985V467.22434a19.99924,19.99924,0,0,1,19.99958-19.99924l15.9991.00026a3.99979,3.99979,0,0,0,3.99986-3.99978v-111.996A3.99986,3.99986,0,0,0,1185.67988,327.22975Z"
-											transform="translate(-624.38307 -287.26237)" fill="#fff" />
-										<path
-											d="M825.198,367.22829a19.99924,19.99924,0,0,1-19.99921-20.03881l.03157-15.95987a3.99986,3.99986,0,0,0-3.99985-3.99986H669.23536a3.99985,3.99985,0,0,0-3.99985,3.99986V483.22405a3.99985,3.99985,0,0,0,3.99985,3.99985h31.99883a3.99985,3.99985,0,0,0,3.99986-3.99985V377.223a9.99962,9.99962,0,0,1,9.99962-9.99962h9.99966A9.99962,9.99962,0,0,1,735.233,377.223v65.90054a3.99985,3.99985,0,0,0,3.99985,3.99986h31.99883a3.99986,3.99986,0,0,0,3.99986-3.99986V377.223a9.99962,9.99962,0,0,1,9.99962-9.99962H795.186a9.99962,9.99962,0,0,1,9.99962,9.9954l.04473,106.00523a3.99985,3.99985,0,0,0,3.99985,3.99985h31.99883a3.99985,3.99985,0,0,0,3.99986-3.99985V371.22814a3.99985,3.99985,0,0,0-3.99986-3.99985Z"
-											transform="translate(-624.38307 -287.26237)" fill="#fff" />
-										<path
-											d="M853.79554,507.24742H965.79145a3.99986,3.99986,0,0,1,3.99985,3.99986v15.97806a19.99925,19.99925,0,0,0,19.97255,19.99923l16.02613.02139a3.99982,3.99982,0,0,1,3.99986,3.99985V663.24172a3.99985,3.99985,0,0,1-3.99986,3.99985H973.79115a3.99985,3.99985,0,0,1-3.99985-3.99985V557.245a9.99924,9.99924,0,0,0-9.99353-9.999h-60.01a9.99924,9.99924,0,0,0-9.99353,9.999V663.24172a3.99985,3.99985,0,0,1-3.99986,3.99985H853.79554a3.99985,3.99985,0,0,1-3.99985-3.99985V511.24728A3.99985,3.99985,0,0,1,853.79554,507.24742Z"
-											transform="translate(-624.38307 -287.26237)" fill="#fff" />
-										<path
-											d="M821.2298,547.246l-16.0778-.063a19.99924,19.99924,0,0,1-19.92088-19.99909V511.24727a3.99985,3.99985,0,0,0-3.99985-3.99985H745.23258a79.99707,79.99707,0,0,0-79.99707,79.99708v75.99722a3.99985,3.99985,0,0,0,3.99985,3.99985h31.99883a3.99986,3.99986,0,0,0,3.99986-3.99985V587.2445A39.99853,39.99853,0,0,1,745.23258,547.246h30.005a9.99924,9.99924,0,0,1,9.99353,9.999v19.99927a9.99966,9.99966,0,0,1-9.99963,9.99964l.00012.00061H731.2331a3.99985,3.99985,0,0,0-3.99986,3.99985v31.99883a3.99985,3.99985,0,0,0,3.99986,3.99985h44.00449a9.99925,9.99925,0,0,1,9.99353,9.999v25.99966a3.99986,3.99986,0,0,0,3.99985,3.99985H821.2298a3.99986,3.99986,0,0,0,3.99986-3.99985V551.24581A3.99982,3.99982,0,0,0,821.2298,547.246Z"
-											transform="translate(-624.38307 -287.26237)" fill="#fff" />
-										<path
-											d="M1108.55634,547.24721H1185.681a3.99955,3.99955,0,0,0,4-4V511.2474a4.00014,4.00014,0,0,0-4-4h-77.05356c-34.26985,0-65.04069,22.00184-75.08665,54.76571-16.389,53.45474,21.6449,102.54247,71.96862,105.12745a3.97676,3.97676,0,0,0,4.172-4.01V637.24675a10.00038,10.00038,0,0,1,9.994-10h20.01186a10.00039,10.00039,0,0,1,9.994,10V663.2476a4.00016,4.00016,0,0,0,4,4H1185.681a4.00016,4.00016,0,0,0,4-4V591.247a4.00014,4.00014,0,0,0-4-4h-71.99963a4.00013,4.00013,0,0,0-4,4v21.12788a11.36812,11.36812,0,0,1-13.33392,11.21491,25.85591,25.85591,0,0,1-11.4248-4.96322c-12.94215-10.24649-19.44667-28.28485-12.26807-46.97047a38.38187,38.38187,0,0,1,35.90179-24.40888"
-											transform="translate(-624.38307 -287.26237)" fill="#fff" />
-									</g>
-								</g>
-							</g>
-						</svg>
-					</a>
-					<svg role="img" class="icon-logo icon-microsoft-studios mx-3" focusable="false">
-						<title>Game studios Logo</title>
-						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-							viewBox="0 0 1997.13 1161.38">
-							<defs>
-								<style>
-									.a {
-										fill: #fff;
-									}
+				<!-- <div class="col-12 text-center">
+                    <a class="mojang-lnk" href="https://mojang.com/?ref=ft" aria-label="mojang logo" target="_blank">
+                        <svg id="LOGO" class="icon-logo icon-mojang mx-3" focusable="false"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 605.29467 509.24409">
+                            <title>Mojang</title>
+                            <g>
+                                <path
+                                    d="M1209.67849,287.26239l-565.204,0a19.99924,19.99924,0,0,0-19.99924,19.99535l-.09221,469.2456a19.99925,19.99925,0,0,0,19.99925,20.00314h565.29617a19.99925,19.99925,0,0,0,19.99925-19.99924V307.26164A19.99925,19.99925,0,0,0,1209.67849,287.26239Z"
+                                    transform="translate(-624.38307 -287.26237)" fill="#ef323d" />
+                                <g>
+                                    <g>
+                                        <path
+                                            d="M787.90243,706.32892H743.80215a2.02519,2.02519,0,0,0-2.02525,2.02526v10.11148a2.02519,2.02519,0,0,0,2.02525,2.02525h12.102a2.02524,2.02524,0,0,1,2.02525,2.02526v35.986a2.02528,2.02528,0,0,0,2.02526,2.02525h11.79575a2.02524,2.02524,0,0,0,2.02526-2.02525v-35.986a2.02528,2.02528,0,0,1,2.02525-2.02526h12.10151a2.02519,2.02519,0,0,0,2.02525-2.02525V708.35418A2.02519,2.02519,0,0,0,787.90243,706.32892Z"
+                                            transform="translate(-624.38307 -287.26237)" fill="#fff" />
+                                        <path
+                                            d="M933.75761,706.32892H916.87492a2.02519,2.02519,0,0,0-2.02525,2.02526v50.148a2.02523,2.02523,0,0,0,2.02525,2.02525H933.6814c19.13748,0,31.07947-10.41112,31.07947-27.25239C964.76087,716.74005,953.27859,706.32892,933.75761,706.32892Zm-.78624,40.34274h-.74255a2.04191,2.04191,0,0,1-2.05821-2.02525V722.20992a2.04191,2.04191,0,0,1,2.05821-2.02525h.89845c10.26924,0,15.48158,3.981,15.48158,13.09034C948.60885,742.69118,943.39651,746.67166,932.97137,746.67166Z"
+                                            transform="translate(-624.38307 -287.26237)" fill="#fff" />
+                                        <rect x="379.84998" y="419.06656" width="16.20941" height="54.19848"
+                                            rx="2.02525" fill="#fff" />
+                                        <path
+                                            d="M873.33114,706.32892H861.76493a2.02523,2.02523,0,0,0-2.02525,2.02526v26.91134c0,9.03317-2.44967,12.17154-8.49681,12.17154-6.0477,0-8.49731-3.13837-8.49731-12.17154V708.35418a2.02523,2.02523,0,0,0-2.02525-2.02526H829.1541a2.02523,2.02523,0,0,0-2.02525,2.02526v28.44215c0,16.61173,7.42565,25.18573,24.114,25.18573,16.22871,0,24.11352-9.03316,24.11352-25.26243V708.35418A2.02523,2.02523,0,0,0,873.33114,706.32892Z"
+                                            transform="translate(-624.38307 -287.26237)" fill="#fff" />
+                                        <path
+                                            d="M691.98331,727.76317c-1.67446-.7175-6.27831-2.62854-6.90928-2.83348-4.47633-1.45388-4.68824-3.58228-3.94423-5.63113s3.75824-2.95912,6.63835-1.78833c1.54614.62853,5.38255,4.10741,5.80006,4.51483a2.13164,2.13164,0,0,0,1.0587.67018h.00006a1.81176,1.81176,0,0,0,1.457-.321l8.43351-6.2946a1.822,1.822,0,0,0,.31462-2.61761c-4.59077-5.5467-11.24387-8.58782-19.126-8.58782-11.63622,0-20.28637,7.04322-20.28637,16.15253,0,7.95634,3.55673,12.66055,12.88045,16.71188,2.411.85106,5.51515,2.11835,6.75676,2.48361,5.43231,1.59832,5.64052,4.31,4.74546,6.775s-4.507,3.52329-7.98694,2.15162c-2.42877-.95733-6.23239-4.632-6.49751-5.0003a1.81823,1.81823,0,0,0-.98959-.60146l-.02708-.00575a1.81181,1.81181,0,0,0-1.41016.28716l-8.4864,5.92218a1.8215,1.8215,0,0,0-.39893,2.60375c4.90789,6.3473,12.09921,9.70374,20.47524,9.70374,12.47776,0,21.3581-7.73134,21.3581-18.2192C705.8391,736.94976,702.08769,732.0505,691.98331,727.76317Z"
+                                            transform="translate(-624.38307 -287.26237)" fill="#fff" />
+                                        <path
+                                            d="M1087.56366,704.87426a28.55318,28.55318,0,1,0,28.55318,28.55318A28.55317,28.55317,0,0,0,1087.56366,704.87426Zm0,41.2955a12.74233,12.74233,0,1,1,12.74233-12.74232A12.75674,12.75674,0,0,1,1087.56366,746.16976Z"
+                                            transform="translate(-624.38307 -287.26237)" fill="#fff" />
+                                        <path
+                                            d="M1178.046,727.76317c-1.67445-.7175-6.27831-2.62854-6.90928-2.83348-4.47632-1.45388-4.68823-3.58228-3.94422-5.63113s3.75824-2.95912,6.63834-1.78833c1.54614.62853,5.38256,4.10741,5.80007,4.51483a2.13158,2.13158,0,0,0,1.05869.67018h.00007a1.81176,1.81176,0,0,0,1.457-.321l8.43351-6.2946a1.822,1.822,0,0,0,.31462-2.61761c-4.59078-5.5467-11.24388-8.58782-19.126-8.58782-11.63622,0-20.28638,7.04322-20.28638,16.15253,0,7.95634,3.55674,12.66055,12.88046,16.71188,2.411.85106,5.51514,2.11835,6.75676,2.48361,5.43231,1.59832,5.64052,4.31,4.74546,6.775s-4.507,3.52329-7.98694,2.15162c-2.42877-.95733-6.2324-4.632-6.49752-5.0003a1.81816,1.81816,0,0,0-.98958-.60146l-.02708-.00575a1.81183,1.81183,0,0,0-1.41017.28716l-8.48639,5.92218a1.82149,1.82149,0,0,0-.39893,2.60375c4.90789,6.3473,12.09921,9.70374,20.47524,9.70374,12.47776,0,21.3581-7.73134,21.3581-18.2192C1191.90179,736.94976,1188.15038,732.0505,1178.046,727.76317Z"
+                                            transform="translate(-624.38307 -287.26237)" fill="#fff" />
+                                    </g>
+                                    <g>
+                                        <path
+                                            d="M938.42238,325.22987a81.997,81.997,0,1,0,81.997,81.997A81.997,81.997,0,0,0,938.42238,325.22987Zm0,121.99554a39.99854,39.99854,0,1,1,39.99854-39.99854A40.04382,40.04382,0,0,1,938.42238,447.22541Z"
+                                            transform="translate(-624.38307 -287.26237)" fill="#fff" />
+                                        <path
+                                            d="M1185.67988,327.22975H1073.684a3.99986,3.99986,0,0,0-3.99986,3.99986v31.99883a3.99986,3.99986,0,0,0,3.99986,3.99985h75.99722v69.99683a9.99966,9.99966,0,0,1-9.99964,9.99963l.00013.00061h-29.999a40.05387,40.05387,0,0,1-39.83924-36.41349,3.96391,3.96391,0,0,0-3.96214-3.585h-32.079a3.97814,3.97814,0,0,0-4.00926,4.18262,80.00044,80.00044,0,0,0,79.88966,75.81445h35.99868a3.99985,3.99985,0,0,0,3.99986-3.99985V467.22434a19.99924,19.99924,0,0,1,19.99958-19.99924l15.9991.00026a3.99979,3.99979,0,0,0,3.99986-3.99978v-111.996A3.99986,3.99986,0,0,0,1185.67988,327.22975Z"
+                                            transform="translate(-624.38307 -287.26237)" fill="#fff" />
+                                        <path
+                                            d="M825.198,367.22829a19.99924,19.99924,0,0,1-19.99921-20.03881l.03157-15.95987a3.99986,3.99986,0,0,0-3.99985-3.99986H669.23536a3.99985,3.99985,0,0,0-3.99985,3.99986V483.22405a3.99985,3.99985,0,0,0,3.99985,3.99985h31.99883a3.99985,3.99985,0,0,0,3.99986-3.99985V377.223a9.99962,9.99962,0,0,1,9.99962-9.99962h9.99966A9.99962,9.99962,0,0,1,735.233,377.223v65.90054a3.99985,3.99985,0,0,0,3.99985,3.99986h31.99883a3.99986,3.99986,0,0,0,3.99986-3.99986V377.223a9.99962,9.99962,0,0,1,9.99962-9.99962H795.186a9.99962,9.99962,0,0,1,9.99962,9.9954l.04473,106.00523a3.99985,3.99985,0,0,0,3.99985,3.99985h31.99883a3.99985,3.99985,0,0,0,3.99986-3.99985V371.22814a3.99985,3.99985,0,0,0-3.99986-3.99985Z"
+                                            transform="translate(-624.38307 -287.26237)" fill="#fff" />
+                                        <path
+                                            d="M853.79554,507.24742H965.79145a3.99986,3.99986,0,0,1,3.99985,3.99986v15.97806a19.99925,19.99925,0,0,0,19.97255,19.99923l16.02613.02139a3.99982,3.99982,0,0,1,3.99986,3.99985V663.24172a3.99985,3.99985,0,0,1-3.99986,3.99985H973.79115a3.99985,3.99985,0,0,1-3.99985-3.99985V557.245a9.99924,9.99924,0,0,0-9.99353-9.999h-60.01a9.99924,9.99924,0,0,0-9.99353,9.999V663.24172a3.99985,3.99985,0,0,1-3.99986,3.99985H853.79554a3.99985,3.99985,0,0,1-3.99985-3.99985V511.24728A3.99985,3.99985,0,0,1,853.79554,507.24742Z"
+                                            transform="translate(-624.38307 -287.26237)" fill="#fff" />
+                                        <path
+                                            d="M821.2298,547.246l-16.0778-.063a19.99924,19.99924,0,0,1-19.92088-19.99909V511.24727a3.99985,3.99985,0,0,0-3.99985-3.99985H745.23258a79.99707,79.99707,0,0,0-79.99707,79.99708v75.99722a3.99985,3.99985,0,0,0,3.99985,3.99985h31.99883a3.99986,3.99986,0,0,0,3.99986-3.99985V587.2445A39.99853,39.99853,0,0,1,745.23258,547.246h30.005a9.99924,9.99924,0,0,1,9.99353,9.999v19.99927a9.99966,9.99966,0,0,1-9.99963,9.99964l.00012.00061H731.2331a3.99985,3.99985,0,0,0-3.99986,3.99985v31.99883a3.99985,3.99985,0,0,0,3.99986,3.99985h44.00449a9.99925,9.99925,0,0,1,9.99353,9.999v25.99966a3.99986,3.99986,0,0,0,3.99985,3.99985H821.2298a3.99986,3.99986,0,0,0,3.99986-3.99985V551.24581A3.99982,3.99982,0,0,0,821.2298,547.246Z"
+                                            transform="translate(-624.38307 -287.26237)" fill="#fff" />
+                                        <path
+                                            d="M1108.55634,547.24721H1185.681a3.99955,3.99955,0,0,0,4-4V511.2474a4.00014,4.00014,0,0,0-4-4h-77.05356c-34.26985,0-65.04069,22.00184-75.08665,54.76571-16.389,53.45474,21.6449,102.54247,71.96862,105.12745a3.97676,3.97676,0,0,0,4.172-4.01V637.24675a10.00038,10.00038,0,0,1,9.994-10h20.01186a10.00039,10.00039,0,0,1,9.994,10V663.2476a4.00016,4.00016,0,0,0,4,4H1185.681a4.00016,4.00016,0,0,0,4-4V591.247a4.00014,4.00014,0,0,0-4-4h-71.99963a4.00013,4.00013,0,0,0-4,4v21.12788a11.36812,11.36812,0,0,1-13.33392,11.21491,25.85591,25.85591,0,0,1-11.4248-4.96322c-12.94215-10.24649-19.44667-28.28485-12.26807-46.97047a38.38187,38.38187,0,0,1,35.90179-24.40888"
+                                            transform="translate(-624.38307 -287.26237)" fill="#fff" />
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                    <svg role="img" class="icon-logo icon-microsoft-studios mx-3" focusable="false">
+                        <title>Game studios Logo</title>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            viewBox="0 0 1997.13 1161.38">
+                            <defs>
+                                <style>
+                                    .a {
+                                        fill: #fff;
+                                    }
 
-									.b {
-										fill: #666;
-									}
+                                    .b {
+                                        fill: #666;
+                                    }
 
-									.c {
-										fill: url(#a);
-									}
+                                    .c {
+                                        fill: url(#a);
+                                    }
 
-									.d {
-										fill: url(#d);
-									}
+                                    .d {
+                                        fill: url(#d);
+                                    }
 
-									.e {
-										fill: url(#e);
-									}
+                                    .e {
+                                        fill: url(#e);
+                                    }
 
-									.f {
-										fill: url(#f);
-									}
+                                    .f {
+                                        fill: url(#f);
+                                    }
 
-									.g {
-										fill: url(#g);
-									}
-								</style>
-								<radialGradient id="a" cx="182.93" cy="2141.27" r="14.4"
-									gradientTransform="matrix(0, 25.06, 22.09, 0, -46308.52, -4363.29)"
-									gradientUnits="userSpaceOnUse">
-									<stop offset="0" stop-color="#fff" />
-									<stop offset="1" stop-color="#fff" stop-opacity="0" />
-								</radialGradient>
-								<linearGradient id="d" x1="1037.45" y1="55.15" x2="1123.01" y2="199.55"
-									gradientUnits="userSpaceOnUse">
-									<stop offset="0.04" stop-color="#109400" />
-									<stop offset="0.38" stop-color="#64b62a" />
-									<stop offset="0.63" stop-color="#97ca43" />
-								</linearGradient>
-								<linearGradient id="e" x1="1068.98" y1="34.75" x2="1098.86" y2="226.19"
-									gradientTransform="matrix(-1, 0, 0, 1, 1995.58, 0)" gradientUnits="userSpaceOnUse">
-									<stop offset="0" stop-color="#109400" />
-									<stop offset="0.38" stop-color="#64b62a" />
-									<stop offset="0.63" stop-color="#97ca43" />
-								</linearGradient>
-								<linearGradient id="f" x1="866.71" y1="276.71" x2="959.85" y2="322.09"
-									gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#e" />
-								<linearGradient id="g" x1="858.2" y1="272.39" x2="951.98" y2="316.4"
-									gradientTransform="matrix(-1, 0, 0, 1, 1995.58, 0)" gradientUnits="userSpaceOnUse">
-									<stop offset="0" stop-color="#109400" />
-									<stop offset="0.39" stop-color="#64b62a" />
-									<stop offset="0.66" stop-color="#97ca43" />
-								</linearGradient>
-							</defs>
-							<title>xboxgamestudio</title>
-							<path class="a"
-								d="M1058.1,592.93c39.64-29.41,94.8-34.62,140.07-15.85,26.33,10.85,47.74,31.11,63.51,54.49a189.24,189.24,0,0,1,22.08,94.49c-.64,43.25-16.44,88-49.48,117-54.88,48.6-149,43.74-197-12.39-33.4-38-42.71-91.92-35.11-140.81,2.79-21.73,12.09-41.6,21.27-61.23,10.7-12.66,21-25.94,34.61-35.71m67.14,6.63c-21.76,3.82-43.92,12.92-57.37,31.26-23.12,21.55-32.22,53.63-33.54,84.36-.53,36.11,8.74,75,35.65,100.73,36.32,37.07,101.72,38.32,140.07,3.71,20.8-18.2,33.28-44.5,37.35-71.59,6-36.39.25-75.93-20.94-106.69-6.46-7.7-14.41-14-20.8-21.8-22.23-18.06-52.52-23.8-80.42-20Z" />
-							<path class="a"
-								d="M484.05,573.3c13-.15,26.09-.11,39.11-.18,27.76,38.18,58.26,74.29,84.59,113.54,27.12-37.65,57.55-72.86,82.49-112,13.66-3.61,28.26-1.07,42.28-1.29C698.66,621,662.7,667.14,629,714.92c11.81,13.49,21.51,28.66,31.65,43.4q41.21,55.81,82.27,111.73-19.9-.12-39.82-.15C672,828,641.36,785.8,609.25,744.69c-8.88,5.82-12.63,17.16-19.87,24.84-9.92,9.13-16.77,20.91-25,31.43-16.77,23.06-34,45.79-50.77,68.87q-20,0-40,.22c31.9-42.61,63-85.82,94.76-128.5,6.78-8.64,9.64-20.59,19.48-26.55a363.54,363.54,0,0,1-30-40.61c-11-14.7-23.16-28.55-34.22-43.25-9.45-21.52-26.9-38.18-39.49-57.84Z" />
-							<path class="a"
-								d="M758.31,573.16c41,.07,82-.08,123,0,19.7.22,40.39,2.71,57.48,13.27,23.55,13.71,39.18,41,37.22,68.37.32,24.09-14.13,46.14-34.4,58.34,16.88,9.43,32.68,23.06,39,41.93,12.35,32.3,2.07,72.8-26.26,93.39-21.87,16.34-50,21.37-76.74,21.44-39.71-.07-79.46.15-119.17,0-1.14-46.32.11-92.67-.11-139-20.8.14-41.6,0-62.4,0q10.82-15.09,22-29.9,20.18-.22,40.35-.4c-1.46-42.5.25-85,.07-127.5M791.67,605c.47,31.87.29,63.7.07,95.57,31-.25,62.08.5,93.09,0,15.77-.53,32.54-4.6,44.1-16,18.12-17.3,16.12-49.38-1.11-66.51-15-11.92-35.1-13.63-53.52-13.6-27.54.29-55.09-.42-82.63.5m.18,126.25c.21,35.76-.43,71.55.32,107.3,30.79-.32,61.62.18,92.41-.21,17.59-1,36.35-4.32,50.23-16.06,17.84-15.52,21.3-43.68,10.85-64.27-11.74-19.3-35.82-25.4-57-26.47-32.25-.75-64.54-.07-96.83-.29Z" />
-							<path class="a"
-								d="M1262.8,573.19c13-.08,26,0,39-.15,28.69,38.07,56.84,76.54,85.7,114.47,26.76-38.61,56-75.47,83.64-113.44,12.91-2.1,26.18-.57,39.24-.89-12,20.09-28.15,37.25-40.07,57.38-19,24.84-37.39,50.21-56.19,75.18-2.49,3.39-5.64,7.46-3.74,11.92,36.6,51,73.85,101.63,111,152.26-13.28.15-26.55,0-39.82-.21-31.08-42.71-63-84.78-94.34-127.25-32,42.43-63.54,85.25-95.65,127.61-13.13-.28-26.23-.21-39.32-.11,38.57-51.38,75.93-103.73,114.39-155.22-34.36-47.42-69.36-94.31-103.89-141.55Z" />
-							<path class="a"
-								d="M41,959.43c33-24.16,81.49-23.77,114.24.67,17.91,13.45,28.61,34.47,33.36,56q-13,.27-25.9.58c-4.25-10.89-7.39-22.66-15.06-31.76C118.13,951,52.81,959.25,36.07,1002.17c-15.38,30-17.27,67.23-2.93,97.92,20.3,41.57,83.88,51.17,115.6,17.45,13.2-11.85,16.45-30.12,18.52-46.89-23.4.14-46.77-.07-70.18.21,0-7.81.07-15.66.11-23.44,31.08-.14,62.19-.18,93.3.07-.18,36.36,0,72.76.1,109.12H166.16c.21-8.32.42-16.63.82-24.91-14.28,17.24-35.86,28-58.09,29.66H85.2c-21.34-2.93-42.74-11.39-57.62-27.44C13,1118.07,4.25,1097.66,0,1076.75v-48.21c5.17-26.76,18.38-53.06,41-69.12Z" />
-							<path class="a"
-								d="M865.7,967.21c13.71-17.67,37-24.73,58.59-25.48,25-.72,52.8,5,69.75,24.83,12,13,15,31.08,16.13,48l-23.94.21c-1.64-9.92-1.79-20.7-7.71-29.23-8.1-12.27-22.62-18.45-36.71-20.48-17.16-2.53-36.11-.89-50.56,9.49-12,8.46-15.84,26.12-9.31,39.11,4.56,7.64,12.84,12,20.87,15.17,25.73,9.49,54.05,9.85,79.17,21.23,11.7,5.17,22.37,13.74,27.83,25.55,9,20.94,5.14,47.56-11.49,63.66-15.27,15.3-37.42,20.41-58.26,22h-3.28c-25.4-1.43-53.2-6.71-71-26.55-14-15-17.2-36.22-16.84-55.91h24c.21,11.59-.43,24.15,6,34.43,9.27,15.7,28,22.27,45.2,24.41,19.09,2.32,40.82.32,55.66-13.1,15-13,14.63-41.36-3.75-51.17-31.82-17.27-71.67-12.56-102-33.33-22.9-16.16-25-51.6-8.38-72.94Z" />
-							<path class="a"
-								d="M1641.3,975.81c33.47-41.9,102.36-45.68,141.43-9.64,39.89,36.86,44.46,102.2,18.31,148.2-15.17,27-44.35,43.32-74.57,47H1714.2c-47.88,1-89.7-39.5-95.94-85.89-5.6-34.47.1-72.29,23-99.66m54.7-8.74c-21.94,6-39.78,23.23-47.81,44.39-11.7,30.61-10.27,67.73,8.53,95.24,22.48,33.75,74.85,42,106,15.45,36.75-31.3,39-91.85,11.74-130C1756.9,968.38,1724,959,1696,967.06Z" />
-							<path class="a"
-								d="M1854.4,960.72c20.23-18.42,49.92-21.41,75.93-17.42,21,2.86,42.21,13.42,52.77,32.47,7.13,11.74,8.56,25.66,9.42,39.07-8,0-16.06,0-24,0-.75-11.95-2.32-24.87-11.07-33.83-15.77-17-41.67-19.23-63.22-15.31-15.87,2.68-32,14.42-32.68,31.69-1.75,12.67,6.88,24.45,18.27,29.12,26.9,11.35,57,11.81,84.09,22.66,14.24,6.35,26.87,18.34,31,33.76,5.06,18.19,1.56,39.35-11.31,53.59-16.2,19.66-43.43,25.48-67.76,24.41-26.47-.5-55.58-8.81-71.67-31.33-10.92-14.63-13.21-33.33-12.81-51,8.2,0,16.44,0,24.72,0,.29,12.09-1.11,25.58,6.71,35.86,8.38,13.35,24,19.62,39,22,20.23,3.79,43.49,2.15,59.9-11.45,15.49-13,15.45-42.46-3.89-51.88-31.47-16.1-70.07-12.42-100-32.22-26.54-17.31-26.5-60.09-3.31-80.18Z" />
-							<path class="a"
-								d="M264.2,1001.15c9.92-17.63,14.95-37.4,24.3-55.32,7,.43,13.91.79,20.87,1.25,18.49,49.36,40.75,97.17,58.73,146.7,8.45,17.2,12,36.44,21.73,53,1,3.25,1.92,6.53,2.89,9.81-10.13-.14-20.87,2.14-30.36-2.35-3-21.84-15.74-40.83-22.84-61.45-28,.11-56.12.53-84.16-.29-9.82,21-16.42,43.36-26.73,64.16-8.67,0-17.37.07-26,.07,5.24-18.27,14.23-35.14,20.83-53,14.28-33.93,25.26-69.23,40.78-102.66m.18,68.76c22.55-.25,45.06,0,67.61.18-8.38-21.8-17.05-43.5-25.83-65.12-2.18-8.28-4.35-16.6-7.1-24.73-12.31,29.54-23.4,59.66-34.68,89.67Z" />
-							<path class="a"
-								d="M405,946.66c9-.29,18.09-.43,27.12-.47,25.44,57.81,49.81,116.08,74.32,174.28,17.09-40.07,34.11-80.25,49.38-121,10.34-16.27,15.84-35,23.4-52.6,9.31-.39,18.62-.57,28-.64.43,70,0,140,.93,209.93-8.49.36-17,.39-25.51.25.11-52.63-.07-105.27.14-157.9-16.09,34.54-28.54,70.62-44.06,105.41-8.17,17.1-12.84,35.58-19.62,53.24q-11.14-.37-22.34-.53c-23.23-52.35-44.45-105.59-66.82-158.29.14,52.6-.39,105.2.25,157.79-8.71.25-17.38.46-26.05.78,1.53-52.06-.25-104.16.36-156.26,1-18,.74-36,.53-54Z" />
-							<path class="a"
-								d="M632.51,946.62c49.21-.4,98.44-.36,147.64-.15q0,10.44,0,21c-41.28.18-82.52-.07-123.8.08q.33,35,0,70c38.78.07,77.53-.42,116.31.29q-.21,10.21-.32,20.48c-38.53.22-77.06-.11-115.64.18-.5,25.58-.32,51.2,0,76.82,41.67.22,83.31,0,125,.11-.14,6.93-.32,13.88-.46,20.81-49.6.07-99.19,0-148.78.14,0-69.91.32-139.81.14-209.71Z" />
-							<path class="a"
-								d="M1013.4,946.44c54.52.14,109-.08,163.55.14q-.1,11.4-.21,22.87c-23.12-.11-46.24-.07-69.33,0,.25,62.26-.14,124.57.43,186.88q-12.84.1-25.61.1c1.14-62.23-.36-124.5.64-186.77-23.19-.49-46.42-.17-69.65-.21q0-11.5.18-23Z" />
-							<path class="a"
-								d="M1191.3,946.55q12.21-.06,24.41.21c-.61,40.61-.11,81.25-.25,121.89a115,115,0,0,0,8,43.25c8.2,17.38,27.83,26.37,46.38,26.73,16.73.5,35.4-3,47-16.17,11.74-13.88,14.2-32.9,14.38-50.45-.15-41.79,0-83.57-.15-125.39h24.12c.07,41.93.18,83.89,0,125.86-.22,24.34-5,51-23.59,68.33-20.69,19.91-51.91,22.09-79,19.09-14.6-1.17-26.94-9.53-39.5-16.2-8.35-13.27-16.87-27-19.59-42.71-2.07-13.13-2.39-26.44-2.32-39.68.89-38.25.68-76.51.18-114.76Z" />
-							<path class="a"
-								d="M1381,946.3c27.19.78,54.41-.32,81.6.71,27.22,1.29,55.41,13.67,70.07,37.5,17.27,27.7,20,62.34,14.88,94-4.53,27.55-20.48,55.39-46.88,67-37.36,18-79.92,8.21-119.74,10.74.14-70-.07-140,.07-209.93m23.94,22.88c0,54.87.32,109.76,0,164.68,28.36-1.68,59.19,5.1,85.38-9,26-14.34,35.35-46.24,34.92-74.15.25-26.19-6.17-57-30.39-71.4-27.26-15.81-60-8.89-90-10.13Z" />
-							<path class="a"
-								d="M1570.6,946.48c8.39,0,16.77,0,25.23.07-.39,69.9.57,139.84-.32,209.75-8.42,0-16.84,0-25.23-.18.4-69.87.11-139.74.32-209.64Z" />
-							<path class="b"
-								d="M1245.66,247.72c0,136.82-111.36,247.73-248.71,247.73S748.24,384.54,748.24,247.72,859.59,0,997,0s248.71,110.9,248.71,247.72Z" />
-							<path class="c"
-								d="M1245.66,247.72c0,136.82-111.36,247.73-248.71,247.73S748.24,384.54,748.24,247.72,859.59,0,997,0s248.71,110.9,248.71,247.72Z" />
-							<path class="c"
-								d="M1245.66,247.72c0,136.82-111.36,247.73-248.71,247.73S748.24,384.54,748.24,247.72,859.59,0,997,0s248.71,110.9,248.71,247.72Z" />
-							<path class="c"
-								d="M1245.66,247.72c0,136.82-111.36,247.73-248.71,247.73S748.24,384.54,748.24,247.72,859.59,0,997,0s248.71,110.9,248.71,247.72Z" />
-							<path class="d"
-								d="M997.79,73.32V197.67s20.5,14,30.41,24.11l36.82-86.7s73-74.16,105.53-64.75a179.1,179.1,0,0,0-16.3-15c-11.34-9.25-23.45-20.17-45.8-19.79C1073.94,36.1,1032.62,52.68,997.79,73.32Z" />
-							<path class="e"
-								d="M997.79,73.32V197.67s-20.5,14-30.4,24.11l-36.83-86.7s-73.4-75.39-105.93-66a204.05,204.05,0,0,1,16-14.53c11.35-9.24,24.1-19.45,46.45-19.07C921.65,36.1,963,52.68,997.79,73.32Z" />
-							<path class="f"
-								d="M830.53,431.83S809.39,412.34,804.8,405c-3.51-5.6-12.64-25.71,7.62-78.89s64.07-121.87,118.14-191.06l36.83,86.7s-82.85,74.42-118.71,135c-10.28,17.37-17.41,34-19.75,43.57C823.32,423.33,830.53,431.83,830.53,431.83Z" />
-							<path class="g"
-								d="M1164.23,431.06s21-19.49,25.32-27.08c3.26-5.75,13.87-24.66-6.38-77.84S1119.1,204.27,1065,135.08l-36.82,86.7s82.84,74.42,118.7,135c10.28,17.37,17.41,34,19.75,43.57C1172.27,423.33,1164.23,431.06,1164.23,431.06Z" />
-						</svg>
-					</svg>
-				</div>
+                                    .g {
+                                        fill: url(#g);
+                                    }
+                                </style>
+                                <radialGradient id="a" cx="182.93" cy="2141.27" r="14.4"
+                                    gradientTransform="matrix(0, 25.06, 22.09, 0, -46308.52, -4363.29)"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop offset="0" stop-color="#fff" />
+                                    <stop offset="1" stop-color="#fff" stop-opacity="0" />
+                                </radialGradient>
+                                <linearGradient id="d" x1="1037.45" y1="55.15" x2="1123.01" y2="199.55"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop offset="0.04" stop-color="#109400" />
+                                    <stop offset="0.38" stop-color="#64b62a" />
+                                    <stop offset="0.63" stop-color="#97ca43" />
+                                </linearGradient>
+                                <linearGradient id="e" x1="1068.98" y1="34.75" x2="1098.86" y2="226.19"
+                                    gradientTransform="matrix(-1, 0, 0, 1, 1995.58, 0)" gradientUnits="userSpaceOnUse">
+                                    <stop offset="0" stop-color="#109400" />
+                                    <stop offset="0.38" stop-color="#64b62a" />
+                                    <stop offset="0.63" stop-color="#97ca43" />
+                                </linearGradient>
+                                <linearGradient id="f" x1="866.71" y1="276.71" x2="959.85" y2="322.09"
+                                    gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#e" />
+                                <linearGradient id="g" x1="858.2" y1="272.39" x2="951.98" y2="316.4"
+                                    gradientTransform="matrix(-1, 0, 0, 1, 1995.58, 0)" gradientUnits="userSpaceOnUse">
+                                    <stop offset="0" stop-color="#109400" />
+                                    <stop offset="0.39" stop-color="#64b62a" />
+                                    <stop offset="0.66" stop-color="#97ca43" />
+                                </linearGradient>
+                            </defs>
+                            <title>xboxgamestudio</title>
+                            <path class="a"
+                                d="M1058.1,592.93c39.64-29.41,94.8-34.62,140.07-15.85,26.33,10.85,47.74,31.11,63.51,54.49a189.24,189.24,0,0,1,22.08,94.49c-.64,43.25-16.44,88-49.48,117-54.88,48.6-149,43.74-197-12.39-33.4-38-42.71-91.92-35.11-140.81,2.79-21.73,12.09-41.6,21.27-61.23,10.7-12.66,21-25.94,34.61-35.71m67.14,6.63c-21.76,3.82-43.92,12.92-57.37,31.26-23.12,21.55-32.22,53.63-33.54,84.36-.53,36.11,8.74,75,35.65,100.73,36.32,37.07,101.72,38.32,140.07,3.71,20.8-18.2,33.28-44.5,37.35-71.59,6-36.39.25-75.93-20.94-106.69-6.46-7.7-14.41-14-20.8-21.8-22.23-18.06-52.52-23.8-80.42-20Z" />
+                            <path class="a"
+                                d="M484.05,573.3c13-.15,26.09-.11,39.11-.18,27.76,38.18,58.26,74.29,84.59,113.54,27.12-37.65,57.55-72.86,82.49-112,13.66-3.61,28.26-1.07,42.28-1.29C698.66,621,662.7,667.14,629,714.92c11.81,13.49,21.51,28.66,31.65,43.4q41.21,55.81,82.27,111.73-19.9-.12-39.82-.15C672,828,641.36,785.8,609.25,744.69c-8.88,5.82-12.63,17.16-19.87,24.84-9.92,9.13-16.77,20.91-25,31.43-16.77,23.06-34,45.79-50.77,68.87q-20,0-40,.22c31.9-42.61,63-85.82,94.76-128.5,6.78-8.64,9.64-20.59,19.48-26.55a363.54,363.54,0,0,1-30-40.61c-11-14.7-23.16-28.55-34.22-43.25-9.45-21.52-26.9-38.18-39.49-57.84Z" />
+                            <path class="a"
+                                d="M758.31,573.16c41,.07,82-.08,123,0,19.7.22,40.39,2.71,57.48,13.27,23.55,13.71,39.18,41,37.22,68.37.32,24.09-14.13,46.14-34.4,58.34,16.88,9.43,32.68,23.06,39,41.93,12.35,32.3,2.07,72.8-26.26,93.39-21.87,16.34-50,21.37-76.74,21.44-39.71-.07-79.46.15-119.17,0-1.14-46.32.11-92.67-.11-139-20.8.14-41.6,0-62.4,0q10.82-15.09,22-29.9,20.18-.22,40.35-.4c-1.46-42.5.25-85,.07-127.5M791.67,605c.47,31.87.29,63.7.07,95.57,31-.25,62.08.5,93.09,0,15.77-.53,32.54-4.6,44.1-16,18.12-17.3,16.12-49.38-1.11-66.51-15-11.92-35.1-13.63-53.52-13.6-27.54.29-55.09-.42-82.63.5m.18,126.25c.21,35.76-.43,71.55.32,107.3,30.79-.32,61.62.18,92.41-.21,17.59-1,36.35-4.32,50.23-16.06,17.84-15.52,21.3-43.68,10.85-64.27-11.74-19.3-35.82-25.4-57-26.47-32.25-.75-64.54-.07-96.83-.29Z" />
+                            <path class="a"
+                                d="M1262.8,573.19c13-.08,26,0,39-.15,28.69,38.07,56.84,76.54,85.7,114.47,26.76-38.61,56-75.47,83.64-113.44,12.91-2.1,26.18-.57,39.24-.89-12,20.09-28.15,37.25-40.07,57.38-19,24.84-37.39,50.21-56.19,75.18-2.49,3.39-5.64,7.46-3.74,11.92,36.6,51,73.85,101.63,111,152.26-13.28.15-26.55,0-39.82-.21-31.08-42.71-63-84.78-94.34-127.25-32,42.43-63.54,85.25-95.65,127.61-13.13-.28-26.23-.21-39.32-.11,38.57-51.38,75.93-103.73,114.39-155.22-34.36-47.42-69.36-94.31-103.89-141.55Z" />
+                            <path class="a"
+                                d="M41,959.43c33-24.16,81.49-23.77,114.24.67,17.91,13.45,28.61,34.47,33.36,56q-13,.27-25.9.58c-4.25-10.89-7.39-22.66-15.06-31.76C118.13,951,52.81,959.25,36.07,1002.17c-15.38,30-17.27,67.23-2.93,97.92,20.3,41.57,83.88,51.17,115.6,17.45,13.2-11.85,16.45-30.12,18.52-46.89-23.4.14-46.77-.07-70.18.21,0-7.81.07-15.66.11-23.44,31.08-.14,62.19-.18,93.3.07-.18,36.36,0,72.76.1,109.12H166.16c.21-8.32.42-16.63.82-24.91-14.28,17.24-35.86,28-58.09,29.66H85.2c-21.34-2.93-42.74-11.39-57.62-27.44C13,1118.07,4.25,1097.66,0,1076.75v-48.21c5.17-26.76,18.38-53.06,41-69.12Z" />
+                            <path class="a"
+                                d="M865.7,967.21c13.71-17.67,37-24.73,58.59-25.48,25-.72,52.8,5,69.75,24.83,12,13,15,31.08,16.13,48l-23.94.21c-1.64-9.92-1.79-20.7-7.71-29.23-8.1-12.27-22.62-18.45-36.71-20.48-17.16-2.53-36.11-.89-50.56,9.49-12,8.46-15.84,26.12-9.31,39.11,4.56,7.64,12.84,12,20.87,15.17,25.73,9.49,54.05,9.85,79.17,21.23,11.7,5.17,22.37,13.74,27.83,25.55,9,20.94,5.14,47.56-11.49,63.66-15.27,15.3-37.42,20.41-58.26,22h-3.28c-25.4-1.43-53.2-6.71-71-26.55-14-15-17.2-36.22-16.84-55.91h24c.21,11.59-.43,24.15,6,34.43,9.27,15.7,28,22.27,45.2,24.41,19.09,2.32,40.82.32,55.66-13.1,15-13,14.63-41.36-3.75-51.17-31.82-17.27-71.67-12.56-102-33.33-22.9-16.16-25-51.6-8.38-72.94Z" />
+                            <path class="a"
+                                d="M1641.3,975.81c33.47-41.9,102.36-45.68,141.43-9.64,39.89,36.86,44.46,102.2,18.31,148.2-15.17,27-44.35,43.32-74.57,47H1714.2c-47.88,1-89.7-39.5-95.94-85.89-5.6-34.47.1-72.29,23-99.66m54.7-8.74c-21.94,6-39.78,23.23-47.81,44.39-11.7,30.61-10.27,67.73,8.53,95.24,22.48,33.75,74.85,42,106,15.45,36.75-31.3,39-91.85,11.74-130C1756.9,968.38,1724,959,1696,967.06Z" />
+                            <path class="a"
+                                d="M1854.4,960.72c20.23-18.42,49.92-21.41,75.93-17.42,21,2.86,42.21,13.42,52.77,32.47,7.13,11.74,8.56,25.66,9.42,39.07-8,0-16.06,0-24,0-.75-11.95-2.32-24.87-11.07-33.83-15.77-17-41.67-19.23-63.22-15.31-15.87,2.68-32,14.42-32.68,31.69-1.75,12.67,6.88,24.45,18.27,29.12,26.9,11.35,57,11.81,84.09,22.66,14.24,6.35,26.87,18.34,31,33.76,5.06,18.19,1.56,39.35-11.31,53.59-16.2,19.66-43.43,25.48-67.76,24.41-26.47-.5-55.58-8.81-71.67-31.33-10.92-14.63-13.21-33.33-12.81-51,8.2,0,16.44,0,24.72,0,.29,12.09-1.11,25.58,6.71,35.86,8.38,13.35,24,19.62,39,22,20.23,3.79,43.49,2.15,59.9-11.45,15.49-13,15.45-42.46-3.89-51.88-31.47-16.1-70.07-12.42-100-32.22-26.54-17.31-26.5-60.09-3.31-80.18Z" />
+                            <path class="a"
+                                d="M264.2,1001.15c9.92-17.63,14.95-37.4,24.3-55.32,7,.43,13.91.79,20.87,1.25,18.49,49.36,40.75,97.17,58.73,146.7,8.45,17.2,12,36.44,21.73,53,1,3.25,1.92,6.53,2.89,9.81-10.13-.14-20.87,2.14-30.36-2.35-3-21.84-15.74-40.83-22.84-61.45-28,.11-56.12.53-84.16-.29-9.82,21-16.42,43.36-26.73,64.16-8.67,0-17.37.07-26,.07,5.24-18.27,14.23-35.14,20.83-53,14.28-33.93,25.26-69.23,40.78-102.66m.18,68.76c22.55-.25,45.06,0,67.61.18-8.38-21.8-17.05-43.5-25.83-65.12-2.18-8.28-4.35-16.6-7.1-24.73-12.31,29.54-23.4,59.66-34.68,89.67Z" />
+                            <path class="a"
+                                d="M405,946.66c9-.29,18.09-.43,27.12-.47,25.44,57.81,49.81,116.08,74.32,174.28,17.09-40.07,34.11-80.25,49.38-121,10.34-16.27,15.84-35,23.4-52.6,9.31-.39,18.62-.57,28-.64.43,70,0,140,.93,209.93-8.49.36-17,.39-25.51.25.11-52.63-.07-105.27.14-157.9-16.09,34.54-28.54,70.62-44.06,105.41-8.17,17.1-12.84,35.58-19.62,53.24q-11.14-.37-22.34-.53c-23.23-52.35-44.45-105.59-66.82-158.29.14,52.6-.39,105.2.25,157.79-8.71.25-17.38.46-26.05.78,1.53-52.06-.25-104.16.36-156.26,1-18,.74-36,.53-54Z" />
+                            <path class="a"
+                                d="M632.51,946.62c49.21-.4,98.44-.36,147.64-.15q0,10.44,0,21c-41.28.18-82.52-.07-123.8.08q.33,35,0,70c38.78.07,77.53-.42,116.31.29q-.21,10.21-.32,20.48c-38.53.22-77.06-.11-115.64.18-.5,25.58-.32,51.2,0,76.82,41.67.22,83.31,0,125,.11-.14,6.93-.32,13.88-.46,20.81-49.6.07-99.19,0-148.78.14,0-69.91.32-139.81.14-209.71Z" />
+                            <path class="a"
+                                d="M1013.4,946.44c54.52.14,109-.08,163.55.14q-.1,11.4-.21,22.87c-23.12-.11-46.24-.07-69.33,0,.25,62.26-.14,124.57.43,186.88q-12.84.1-25.61.1c1.14-62.23-.36-124.5.64-186.77-23.19-.49-46.42-.17-69.65-.21q0-11.5.18-23Z" />
+                            <path class="a"
+                                d="M1191.3,946.55q12.21-.06,24.41.21c-.61,40.61-.11,81.25-.25,121.89a115,115,0,0,0,8,43.25c8.2,17.38,27.83,26.37,46.38,26.73,16.73.5,35.4-3,47-16.17,11.74-13.88,14.2-32.9,14.38-50.45-.15-41.79,0-83.57-.15-125.39h24.12c.07,41.93.18,83.89,0,125.86-.22,24.34-5,51-23.59,68.33-20.69,19.91-51.91,22.09-79,19.09-14.6-1.17-26.94-9.53-39.5-16.2-8.35-13.27-16.87-27-19.59-42.71-2.07-13.13-2.39-26.44-2.32-39.68.89-38.25.68-76.51.18-114.76Z" />
+                            <path class="a"
+                                d="M1381,946.3c27.19.78,54.41-.32,81.6.71,27.22,1.29,55.41,13.67,70.07,37.5,17.27,27.7,20,62.34,14.88,94-4.53,27.55-20.48,55.39-46.88,67-37.36,18-79.92,8.21-119.74,10.74.14-70-.07-140,.07-209.93m23.94,22.88c0,54.87.32,109.76,0,164.68,28.36-1.68,59.19,5.1,85.38-9,26-14.34,35.35-46.24,34.92-74.15.25-26.19-6.17-57-30.39-71.4-27.26-15.81-60-8.89-90-10.13Z" />
+                            <path class="a"
+                                d="M1570.6,946.48c8.39,0,16.77,0,25.23.07-.39,69.9.57,139.84-.32,209.75-8.42,0-16.84,0-25.23-.18.4-69.87.11-139.74.32-209.64Z" />
+                            <path class="b"
+                                d="M1245.66,247.72c0,136.82-111.36,247.73-248.71,247.73S748.24,384.54,748.24,247.72,859.59,0,997,0s248.71,110.9,248.71,247.72Z" />
+                            <path class="c"
+                                d="M1245.66,247.72c0,136.82-111.36,247.73-248.71,247.73S748.24,384.54,748.24,247.72,859.59,0,997,0s248.71,110.9,248.71,247.72Z" />
+                            <path class="c"
+                                d="M1245.66,247.72c0,136.82-111.36,247.73-248.71,247.73S748.24,384.54,748.24,247.72,859.59,0,997,0s248.71,110.9,248.71,247.72Z" />
+                            <path class="c"
+                                d="M1245.66,247.72c0,136.82-111.36,247.73-248.71,247.73S748.24,384.54,748.24,247.72,859.59,0,997,0s248.71,110.9,248.71,247.72Z" />
+                            <path class="d"
+                                d="M997.79,73.32V197.67s20.5,14,30.41,24.11l36.82-86.7s73-74.16,105.53-64.75a179.1,179.1,0,0,0-16.3-15c-11.34-9.25-23.45-20.17-45.8-19.79C1073.94,36.1,1032.62,52.68,997.79,73.32Z" />
+                            <path class="e"
+                                d="M997.79,73.32V197.67s-20.5,14-30.4,24.11l-36.83-86.7s-73.4-75.39-105.93-66a204.05,204.05,0,0,1,16-14.53c11.35-9.24,24.1-19.45,46.45-19.07C921.65,36.1,963,52.68,997.79,73.32Z" />
+                            <path class="f"
+                                d="M830.53,431.83S809.39,412.34,804.8,405c-3.51-5.6-12.64-25.71,7.62-78.89s64.07-121.87,118.14-191.06l36.83,86.7s-82.85,74.42-118.71,135c-10.28,17.37-17.41,34-19.75,43.57C823.32,423.33,830.53,431.83,830.53,431.83Z" />
+                            <path class="g"
+                                d="M1164.23,431.06s21-19.49,25.32-27.08c3.26-5.75,13.87-24.66-6.38-77.84S1119.1,204.27,1065,135.08l-36.82,86.7s82.84,74.42,118.7,135c10.28,17.37,17.41,34,19.75,43.57C1172.27,423.33,1164.23,431.06,1164.23,431.06Z" />
+                        </svg>
+                    </svg>
+                </div> -->
 				<div class="col-12" style="padding-top:10px; padding-bottom: 10px;">
 					<div class="text-center text-smaller">
 						<p class="m-1">
-							© 2022 Mojang AB. TM Microsoft Corporation.
+							© 2022 Dragon Mounts 3. TM Herniet Studios.
 						</p>
 						<ul class="nav nav-pills with-divider justify-content-center">
-							<li>
-								<a href="https://account.mojang.com/terms?ref=ft" target="_blank">
-									Terms and Conditions
-								</a>
+							<li style="color: #FFF;font-size: 12px;">
+								<!-- <a> -->
+								<!-- This work is licensed under a Creative Commons Attribution 4.0 International License. -->
+								This work is licensed under a <a
+									href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC
+									BY-NC-ND 4.0</a> International License.
+								<!-- </a> -->
 							</li>
-							<li>
-								<a href="https://account.mojang.com/terms?ref=ft#brand" target="_blank">
-									Brand and Assets Guidelines
-								</a>
-							</li>
+							<!-- <li>
+                                <a href="https://account.mojang.com/terms?ref=ft#brand" target="_blank">
+                                    Brand and Assets Guidelines
+                                </a>
+                            </li> -->
 						</ul>
 					</div>
 				</div>
@@ -1595,35 +1510,35 @@ Mobile style's
 				</div>
 				<div class="col-12 order-3 col-lg-8 order-lg-2 text-center">
 					<ul class="list-inline">
-						<li class="list-inline-item"><a href="http://go.microsoft.com/fwlink/?linkid=521839">Privacy and
-								cookies</a></li>
-						<li class="list-inline-item" id="footer_managecookies"><a href=#>Manage cookies</a></li>
-						<li class="list-inline-item"><a href="http://go.microsoft.com/fwlink/?linkid=206977">Terms of
-								use</a></li>
-						<li class="list-inline-item"><a href="http://www.microsoft.com/trademarks">Trademarks</a></li>
-						<li class="list-inline-item"><a href="http://choice.microsoft.com/">About our ads</a></li>
-						<li class="list-inline-item" style="color: #FFF;font-size: 12px;">© 2022 Microsoft</li>
+						<!-- <li class="list-inline-item"><a href="http://go.microsoft.com/fwlink/?linkid=521839">Privacy and
+                                cookies</a></li>
+                        <li class="list-inline-item" id="footer_managecookies"><a href=#>Manage cookies</a></li>
+                        <li class="list-inline-item"><a href="http://go.microsoft.com/fwlink/?linkid=206977">Terms of
+                                use</a></li>
+                        <li class="list-inline-item"><a href="http://www.microsoft.com/trademarks">Trademarks</a></li>
+                        <li class="list-inline-item"><a href="http://choice.microsoft.com/">About our ads</a></li> -->
+						<li class="list-inline-item" style="color: #FFF;font-size: 12px;">© 2022 Dragon Mounts 3</li>
 					</ul>
 				</div>
 				<div class="col-6 order-2 col-lg-2 order-lg-3  text-right">
 					<a class="ms-footer__logo-link" data-mscc-ic="false" href="https://www.microsoft.com/en-in/"
 						aria-label="microsoft logo" target="_blank">
-						<svg role="img" class="icon-logo icon-microsoft mt-lg-0 mt-2" focusable="false" width="105"
-							height="25">
-							<title>Microsoft Logo</title>
-							<use xlink:href="#microsoft">
-								<svg viewBox="0 0 1033.7 220.7" id="microsoft" width="100%" height="100%"
-									focusable="false">
-									<path
-										d="M1033.7 99.8V81.7h-22.6V53.4l-.8.2-21.2 6.5-.4.1v21.5h-33.5v-12c0-5.6 1.2-9.8 3.7-12.6 2.4-2.8 5.9-4.2 10.3-4.2 3.2 0 6.5.8 9.8 2.2l.8.4V36.4l-.4-.1c-3.1-1.1-7.3-1.7-12.5-1.7-6.6 0-12.6 1.4-17.8 4.3-5.2 2.8-9.3 6.9-12.2 12.1-2.9 5.2-4.3 11.1-4.3 17.7v13H917v18.2h15.7v76.6h22.6V99.9h33.5v48.7c0 20 9.5 30.2 28.1 30.2 3.1 0 6.3-.4 9.6-1.1 3.4-.7 5.6-1.4 7-2.2l.3-.2V157l-.9.6c-1.2.8-2.8 1.5-4.5 2-1.8.5-3.3.8-4.5.8-4.4 0-7.6-1.2-9.6-3.5s-3.1-6.4-3.1-12.2V100l22.5-.2zm-167.1 60.5c-8.2 0-14.6-2.7-19.2-8.1s-6.9-13-6.9-22.8c0-10 2.3-17.9 6.9-23.4 4.6-5.4 10.9-8.2 19-8.2 7.8 0 14.1 2.6 18.5 7.8 4.5 5.2 6.8 13 6.8 23.2 0 10.3-2.1 18.2-6.4 23.5-4.1 5.3-10.4 8-18.7 8m1-80.9c-15.6 0-28 4.6-36.9 13.6-8.8 9-13.3 21.5-13.3 37.2 0 14.8 4.4 26.8 13 35.5s20.4 13.1 34.9 13.1c15.1 0 27.3-4.6 36.2-13.8 8.8-9.1 13.3-21.5 13.3-36.8 0-15.1-4.2-27.1-12.5-35.7-8.3-8.7-19.9-13.1-34.7-13.1m-86.6 0c-10.6 0-19.4 2.7-26.1 8.1-6.8 5.4-10.2 12.5-10.2 21 0 4.4.7 8.4 2.2 11.8s3.7 6.3 6.7 8.8 7.6 5 13.7 7.7c5.1 2.1 9 3.9 11.4 5.3s4.1 2.8 5 4.1c.9 1.3 1.4 3.1 1.4 5.4 0 6.4-4.8 9.5-14.6 9.5-3.6 0-7.8-.8-12.3-2.3s-8.8-3.6-12.6-6.4l-.9-.7v21.7l.3.2c3.2 1.5 7.2 2.7 12 3.7 4.7 1 9 1.5 12.8 1.5 11.5 0 20.8-2.7 27.6-8.1 6.8-5.4 10.3-12.7 10.3-21.5 0-6.4-1.9-11.9-5.5-16.3s-10-8.4-18.8-12c-7-2.8-11.5-5.2-13.4-7-1.8-1.7-2.7-4.2-2.7-7.3 0-2.8 1.1-5 3.4-6.8s5.6-2.7 9.6-2.7c3.8 0 7.6.6 11.4 1.8s7.2 2.7 10 4.6l.9.6V83.5l-.4-.2c-2.6-1.1-6-2.1-10.1-2.8-4.1-.7-7.8-1.1-11.1-1.1m-95.1 80.9c-8.2 0-14.6-2.7-19.2-8.1-4.6-5.4-6.9-13-6.9-22.8 0-10 2.3-17.9 6.9-23.4 4.5-5.4 10.9-8.2 19-8.2 7.8 0 14.1 2.6 18.5 7.8 4.5 5.2 6.8 13 6.8 23.2 0 10.3-2.1 18.2-6.4 23.5-4.2 5.3-10.5 8-18.7 8m1-80.9c-15.6 0-28 4.6-36.9 13.6-8.8 9-13.3 21.5-13.3 37.2 0 14.8 4.4 26.8 13 35.5s20.4 13.1 34.9 13.1c15.1 0 27.3-4.6 36.2-13.8 8.8-9.1 13.3-21.5 13.3-36.8 0-15.1-4.2-27.1-12.5-35.7-8.3-8.7-20-13.1-34.7-13.1m-84.5 18.7V81.7h-22.3v94.8h22.3V128c0-8.2 1.9-15 5.6-20.1 3.6-5.1 8.5-7.6 14.4-7.6 2 0 4.3.3 6.7 1s4.2 1.4 5.2 2.1l.9.7V81.6l-.4-.2c-2.1-.9-5-1.3-8.7-1.3-5.6 0-10.6 1.8-14.9 5.3-3.8 3.1-6.5 7.4-8.6 12.7h-.2zm-62.2-18.7c-10.2 0-19.3 2.2-27.1 6.5s-13.8 10.5-17.9 18.4c-4.1 7.8-6.1 17-6.1 27.2 0 9 2 17.2 6 24.4 4 7.3 9.6 12.9 16.7 16.9 7.1 3.9 15.3 5.9 24.4 5.9 10.6 0 19.6-2.1 26.9-6.3l.3-.2v-20.4l-.9.7c-3.3 2.4-7 4.3-10.9 5.7-3.9 1.4-7.5 2.1-10.7 2.1-8.7 0-15.8-2.7-20.9-8.1-5.1-5.4-7.7-13-7.7-22.5 0-9.6 2.7-17.4 8-23.1 5.3-5.7 12.3-8.6 20.9-8.6 7.3 0 14.5 2.5 21.2 7.4l.9.7V84.6l-.3-.2c-2.5-1.4-6-2.6-10.3-3.5-4.3-1.1-8.5-1.5-12.5-1.5m-66.5 2.3h-22.3v94.8h22.3V81.7zm-10.9-40.4c-3.7 0-6.9 1.2-9.5 3.7s-4 5.6-4 9.3c0 3.6 1.3 6.7 3.9 9.1 2.6 2.4 5.8 3.6 9.5 3.6s7-1.2 9.6-3.6c2.6-2.4 4-5.5 4-9.1s-1.3-6.7-3.9-9.2c-2.5-2.5-5.7-3.8-9.6-3.8m-55.6 33.4v101.8H430V44.2h-31.5l-40 98.2-38.8-98.2h-32.8v132.2h21.4V74.7h.7l41 101.8h16.1l40.3-101.8h.8z"
-										fill="#fff"></path>
-									<path d="M104.9 104.9H0V0h104.9v104.9z" fill="#f35325"></path>
-									<path d="M220.7 104.9H115.8V0h104.9v104.9z" fill="#81bc06"></path>
-									<path d="M104.9 220.7H0V115.8h104.9v104.9z" fill="#05a6f0"></path>
-									<path d="M220.7 220.7H115.8V115.8h104.9v104.9z" fill="#ffba08"></path>
-								</svg>
-							</use>
-						</svg>
+						<!-- <svg role="img" class="icon-logo icon-microsoft mt-lg-0 mt-2" focusable="false" width="105"
+                            height="25">
+                            <title>Microsoft Logo</title>
+                            <use xlink:href="#microsoft">
+                                <svg viewBox="0 0 1033.7 220.7" id="microsoft" width="100%" height="100%"
+                                    focusable="false">
+                                    <path
+                                        d="M1033.7 99.8V81.7h-22.6V53.4l-.8.2-21.2 6.5-.4.1v21.5h-33.5v-12c0-5.6 1.2-9.8 3.7-12.6 2.4-2.8 5.9-4.2 10.3-4.2 3.2 0 6.5.8 9.8 2.2l.8.4V36.4l-.4-.1c-3.1-1.1-7.3-1.7-12.5-1.7-6.6 0-12.6 1.4-17.8 4.3-5.2 2.8-9.3 6.9-12.2 12.1-2.9 5.2-4.3 11.1-4.3 17.7v13H917v18.2h15.7v76.6h22.6V99.9h33.5v48.7c0 20 9.5 30.2 28.1 30.2 3.1 0 6.3-.4 9.6-1.1 3.4-.7 5.6-1.4 7-2.2l.3-.2V157l-.9.6c-1.2.8-2.8 1.5-4.5 2-1.8.5-3.3.8-4.5.8-4.4 0-7.6-1.2-9.6-3.5s-3.1-6.4-3.1-12.2V100l22.5-.2zm-167.1 60.5c-8.2 0-14.6-2.7-19.2-8.1s-6.9-13-6.9-22.8c0-10 2.3-17.9 6.9-23.4 4.6-5.4 10.9-8.2 19-8.2 7.8 0 14.1 2.6 18.5 7.8 4.5 5.2 6.8 13 6.8 23.2 0 10.3-2.1 18.2-6.4 23.5-4.1 5.3-10.4 8-18.7 8m1-80.9c-15.6 0-28 4.6-36.9 13.6-8.8 9-13.3 21.5-13.3 37.2 0 14.8 4.4 26.8 13 35.5s20.4 13.1 34.9 13.1c15.1 0 27.3-4.6 36.2-13.8 8.8-9.1 13.3-21.5 13.3-36.8 0-15.1-4.2-27.1-12.5-35.7-8.3-8.7-19.9-13.1-34.7-13.1m-86.6 0c-10.6 0-19.4 2.7-26.1 8.1-6.8 5.4-10.2 12.5-10.2 21 0 4.4.7 8.4 2.2 11.8s3.7 6.3 6.7 8.8 7.6 5 13.7 7.7c5.1 2.1 9 3.9 11.4 5.3s4.1 2.8 5 4.1c.9 1.3 1.4 3.1 1.4 5.4 0 6.4-4.8 9.5-14.6 9.5-3.6 0-7.8-.8-12.3-2.3s-8.8-3.6-12.6-6.4l-.9-.7v21.7l.3.2c3.2 1.5 7.2 2.7 12 3.7 4.7 1 9 1.5 12.8 1.5 11.5 0 20.8-2.7 27.6-8.1 6.8-5.4 10.3-12.7 10.3-21.5 0-6.4-1.9-11.9-5.5-16.3s-10-8.4-18.8-12c-7-2.8-11.5-5.2-13.4-7-1.8-1.7-2.7-4.2-2.7-7.3 0-2.8 1.1-5 3.4-6.8s5.6-2.7 9.6-2.7c3.8 0 7.6.6 11.4 1.8s7.2 2.7 10 4.6l.9.6V83.5l-.4-.2c-2.6-1.1-6-2.1-10.1-2.8-4.1-.7-7.8-1.1-11.1-1.1m-95.1 80.9c-8.2 0-14.6-2.7-19.2-8.1-4.6-5.4-6.9-13-6.9-22.8 0-10 2.3-17.9 6.9-23.4 4.5-5.4 10.9-8.2 19-8.2 7.8 0 14.1 2.6 18.5 7.8 4.5 5.2 6.8 13 6.8 23.2 0 10.3-2.1 18.2-6.4 23.5-4.2 5.3-10.5 8-18.7 8m1-80.9c-15.6 0-28 4.6-36.9 13.6-8.8 9-13.3 21.5-13.3 37.2 0 14.8 4.4 26.8 13 35.5s20.4 13.1 34.9 13.1c15.1 0 27.3-4.6 36.2-13.8 8.8-9.1 13.3-21.5 13.3-36.8 0-15.1-4.2-27.1-12.5-35.7-8.3-8.7-20-13.1-34.7-13.1m-84.5 18.7V81.7h-22.3v94.8h22.3V128c0-8.2 1.9-15 5.6-20.1 3.6-5.1 8.5-7.6 14.4-7.6 2 0 4.3.3 6.7 1s4.2 1.4 5.2 2.1l.9.7V81.6l-.4-.2c-2.1-.9-5-1.3-8.7-1.3-5.6 0-10.6 1.8-14.9 5.3-3.8 3.1-6.5 7.4-8.6 12.7h-.2zm-62.2-18.7c-10.2 0-19.3 2.2-27.1 6.5s-13.8 10.5-17.9 18.4c-4.1 7.8-6.1 17-6.1 27.2 0 9 2 17.2 6 24.4 4 7.3 9.6 12.9 16.7 16.9 7.1 3.9 15.3 5.9 24.4 5.9 10.6 0 19.6-2.1 26.9-6.3l.3-.2v-20.4l-.9.7c-3.3 2.4-7 4.3-10.9 5.7-3.9 1.4-7.5 2.1-10.7 2.1-8.7 0-15.8-2.7-20.9-8.1-5.1-5.4-7.7-13-7.7-22.5 0-9.6 2.7-17.4 8-23.1 5.3-5.7 12.3-8.6 20.9-8.6 7.3 0 14.5 2.5 21.2 7.4l.9.7V84.6l-.3-.2c-2.5-1.4-6-2.6-10.3-3.5-4.3-1.1-8.5-1.5-12.5-1.5m-66.5 2.3h-22.3v94.8h22.3V81.7zm-10.9-40.4c-3.7 0-6.9 1.2-9.5 3.7s-4 5.6-4 9.3c0 3.6 1.3 6.7 3.9 9.1 2.6 2.4 5.8 3.6 9.5 3.6s7-1.2 9.6-3.6c2.6-2.4 4-5.5 4-9.1s-1.3-6.7-3.9-9.2c-2.5-2.5-5.7-3.8-9.6-3.8m-55.6 33.4v101.8H430V44.2h-31.5l-40 98.2-38.8-98.2h-32.8v132.2h21.4V74.7h.7l41 101.8h16.1l40.3-101.8h.8z"
+                                        fill="#fff"></path>
+                                    <path d="M104.9 104.9H0V0h104.9v104.9z" fill="#f35325"></path>
+                                    <path d="M220.7 104.9H115.8V0h104.9v104.9z" fill="#81bc06"></path>
+                                    <path d="M104.9 220.7H0V115.8h104.9v104.9z" fill="#05a6f0"></path>
+                                    <path d="M220.7 220.7H115.8V115.8h104.9v104.9z" fill="#ffba08"></path>
+                                </svg>
+                            </use>
+                        </svg> -->
 					</a>
 				</div>
 			</div>
