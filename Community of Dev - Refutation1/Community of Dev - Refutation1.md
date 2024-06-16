@@ -67,11 +67,11 @@
 
 - 由汐提供的由方法放寒假编写开发的原始代码：
 
-  ![E-001](E:\MainData\.Documents\Evidence\Community of Dev - Refutation1\Img-of-Evidence\E-001.png)
+  ![E-001](.\Img-of-Evidence\E-001.png)
 
 - 模组《天域世界》实际应用的地形实现代码（以第三层石头的散布地物为例）：
 
-  ![E-001-2](E:\MainData\.Documents\Evidence\Community of Dev - Refutation1\Img-of-Evidence\E-001-2.png)
+  ![E-001-2](.\Img-of-Evidence\E-001-2.png)
 
 何况针对整体模组来讲，地形仅为最基本的元素之一，其余设计、代码、美术等资产完全由我自行完成，在社区也透露过准备将其2D噪声算法进行3D化并重构地形生成的计划。模组本身我私下也没少传播（当然该模组迄今为止仍未正式发布），也完全开源，可以自行拆包并比对。如果算模组剽窃，我想绝大部分应用蒙特卡洛光线追踪算法的游戏都应收到律师函.
 
@@ -103,7 +103,7 @@
 
 ![Zhai-006](.\Img-of-Evidence\Zhai-006.jpg)
 
-![Zhai-007](E:\MainData\.Documents\Evidence\Community of Dev - Refutation1\Img-of-Evidence\Zhai-007.jpg)
+![Zhai-007](.\Img-of-Evidence\Zhai-007.jpg)
 
 倒数第二次在群内与姐姐相见（本想禁言提醒一下就解了，没想到直接退了。后续在上述聊天记录3.13最后和姐姐聊的那段）：
 
